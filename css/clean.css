@@ -1,0 +1,389 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+
+.warpper{
+    width: 97%;
+    margin: 0px auto;
+}
+
+
+/* header css*/
+
+/*img_logo*/
+header{
+    align-items: center;
+    background-color: black;
+ 
+}
+
+.symbol
+{
+    padding:20px 5px;
+    display: flex;
+    
+}
+.logo{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col50 img{
+    display: block;
+    height: 20px;
+}
+
+header  i {
+    color:white;
+    font-size: 20px;
+}
+
+/*header_right*/
+.col25{
+    
+    width: 25%;
+    
+}
+
+.right{
+   text-align: right;
+}
+.right > a{
+    margin-left:30px;
+}
+
+/*header_left*/
+
+.left{
+  
+    text-align:left;
+}
+
+
+/*css menu*/
+/*
+.menu{
+   
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+    border-bottom:1px solid gainsboro;
+    
+}
+.menu li{
+    display:inline;
+}
+
+.menu > ul{
+    list-style-type: none;
+  
+}
+.menu > ul > li > a{
+    display:inline-block;
+    padding:10px;
+    margin:5px 35px;
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    text-decoration: none;
+}
+
+.menu > ul > li > a:hover{
+    border-bottom: 2px solid black;
+    outline:0;
+}
+*/
+
+ul.menu{
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+    display:flex;
+    justify-content: center;
+    border-bottom:1px solid gainsboro;
+}
+ul.menu > li >a{
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+    display:block;
+    padding:12px 15px 15px;
+    margin: 0px 20px;
+    border:2px solid white;
+    text-align: center;
+}
+
+ul.menu > li >a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+
+/*css FOOTER*/
+.footer_services{
+    background-color:black;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+.footer_services i{
+    font-size: 55px;
+
+}
+
+.service_info{
+    margin-left:10px;
+    display:block;
+}
+.footer_service{
+    width: 25%;
+    padding:10px 20px;
+    display:flex;
+    color:white;
+    align-items: center;
+}
+
+.footer_service h2{
+    font-size:20px;
+}
+
+
+div.service_info > h2{
+    font-weight: bold;
+}
+.footer_credit{
+    padding-top: 50px;
+    background-color: black;
+}
+
+img.logocredit{
+    width:15%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social{
+    text-align: center;
+}
+
+.social > a > i{
+    font-size: 40px;
+    color: white;
+}
+
+.sm{
+    margin: 20px 10px;
+}
+
+.social > a > i.sm:hover{
+    color:goldenrod;
+}
+
+
+
+  /*SUBMENU*/
+  .subcontent{
+    display: none !important;
+    position: absolute;
+    background-color: white;
+}
+
+.submenu:hover .subcontent{
+    display:block !important;
+    z-index: 1;
+}
+  
+
+
+
+/*css blog*/
+.title_blog{
+    padding-top:150px;
+    padding-left:20px;
+    align-items: center;
+    display:flex;
+}
+.title_blog h1{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+.title_blog h1 a{
+    color:black;
+    text-decoration: none;
+   
+}
+.title_blog h1 a:hover{
+    color:goldenrod;
+}
+
+/*section info css*/
+.banner{
+    position: relative;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+
+}
+.image img{
+   
+    width: 100%;
+    height: 380px;
+ 
+ 
+}
+.banner_text p{
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    font-weight: bold;
+    text-shadow: 4px 4px 4px black;
+}
+
+.text {
+ 
+    word-wrap: break-word;
+    margin : 0px 150px;
+    font-size: 20px;
+}
+
+
+
+/*Quy trinh css*/
+.image-text{
+    display:flex;
+    padding : 30px 0px;
+}
+
+.header h1{
+    text-align: center;
+    color : goldenrod;
+    font-size : 50px;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+}
+
+.image-text .info_img img{
+    display:block;
+    padding-right: 20px;
+    height: 300px;
+}
+
+.image-text .info_text{
+    float:left;
+}
+.info_text h1{
+    text-transform: capitalize;
+}
+
+
+/*text-image*/
+.text-image{
+    display : flex;
+    padding : 30px 0px;
+}
+
+.text-image .info_img img{
+    width: 100%;
+    display : block;
+    float : left;
+
+}
+
+.text-image .info_text{
+    float : left;
+   width: 100%;
+}
+
+
+
+/*clean service css*/
+
+.clean_services{
+    display : flex;
+}
+
+.clean_service {
+    width: 30%;
+    margin: 5px auto;
+    display : block;
+    text-align:  center;
+    background-color: rgb(240, 192, 192);
+}
+.clean_image img{
+    opacity: 1;
+    transition: .5s;
+}
+.clean_image a img:hover{
+
+    opacity: 0.5;
+   
+}
+.clean_service .clean_info_text{
+    margin: 0px 30px;
+    font-size: 19px;
+}
+hr{
+    margin: 0px auto;
+}
+
+
+
+#mybutton{
+    display : block;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:black;
+    border: 2px solid black;
+    color: white;
+    outline:  none;
+    font-size: 20px;
+    opacity: 0.88;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  /*fixed*/
+
+.fix{
+    position: fixed;
+    z-index: 99999;
+    width: 100%;
+    top: 0px;
+    margin: 0;
+}
+nav .menu{
+    background-color: white;
+}
+
+  
+@media only screen and (max-width: 1000px){
+    div.product {
+        width: 50%;
+    }
+    .footer_service{
+        width: 50%;
+    }
+
+    .image-text .info_img img{
+        width: 300px;
+
+    }
+    .clean_services
+    {
+        flex-wrap: wrap;
+    }
+
+    .clean_service{
+        width: 70%;
+        margin: 20px auto;
+    }
+}
